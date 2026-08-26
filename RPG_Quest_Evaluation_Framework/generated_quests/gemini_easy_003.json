@@ -1,0 +1,27 @@
+{
+    "quest_id": "G003",
+    "title": "Retrieve the Magic Stone",
+    "difficulty": "easy",
+    "required_level": 3,
+    "start_location": "Village",
+    "objectives": [
+        {
+            "step": 1,
+            "action": "travel",
+            "target": "Cave"
+        },
+        {
+            "step": 2,
+            "action": "collect",
+            "target": "Magic Stone"
+        },
+        {
+            "step": 3,
+            "action": "return",
+            "target": "Village"
+        }
+    ],
+    "reward": {
+        "experience": 200
+    }
+}

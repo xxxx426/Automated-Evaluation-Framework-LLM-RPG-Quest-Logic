@@ -1,0 +1,42 @@
+quest_schema.txtRequired Quest Structure
+
+quest_id
+title
+difficulty
+required_level
+start_location
+
+objectives:
+- step
+- action
+- target
+
+reward:
+- experience
+
+Valid difficulty:
+easy
+medium
+hard
+
+Valid level:
+1-10
+
+Valid locations:
+Village
+Forest
+Cave
+Castle
+
+Valid actions:
+travel
+collect
+talk
+fight
+return
+
+Valid items:
+Lost Sword
+Key
+Health Potion
+Magic Stone

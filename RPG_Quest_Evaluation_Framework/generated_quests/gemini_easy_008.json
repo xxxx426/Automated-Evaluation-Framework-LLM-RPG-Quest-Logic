@@ -1,0 +1,27 @@
+{
+    "quest_id": "G008",
+    "title": "The Missing Blade",
+    "difficulty": "easy",
+    "required_level": 2,
+    "start_location": "Village",
+    "objectives": [
+        {
+            "step": 1,
+            "action": "travel",
+            "target": "Forest"
+        },
+        {
+            "step": 2,
+            "action": "collect",
+            "target": "Lost Sword"
+        },
+        {
+            "step": 3,
+            "action": "return",
+            "target": "Village"
+        }
+    ],
+    "reward": {
+        "experience": 150
+    }
+}
